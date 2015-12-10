@@ -32,6 +32,9 @@ class ViewController: NSViewController
     @IBAction func additionClick(button: NSButton)
     {
         // TODO: Implement Me
+        registerOperation { lhs, rhs in
+            return lhs + rhs
+        }
     }
     
     @IBAction func subtractionClick(button: NSButton)
