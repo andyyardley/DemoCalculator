@@ -36,7 +36,10 @@ class ViewController: NSViewController
     
     @IBAction func subtractionClick(button: NSButton)
     {
-        // TODO: Implement Me
+        //Rubbish comment PRB
+        registerOperation{ lhs, rhs in
+            return lhs - rhs
+        }
     }
     
     @IBAction func multiplicationClick(button: NSButton)
